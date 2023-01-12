@@ -3,12 +3,12 @@
 #include <string>
 using namespace std;
 
-bool getMode(); //выбрать режим
-string getNumberFromUser(string);//получить число от ползователя 
-string getSign10To2(string);// ôóíêöèÿ îïðåäåëåíèÿ çíàêà â ïðåîáðàçîâàíèè 10 -> 2
-double power(double, int);// ôóíêöèÿ âû÷èñëåíèÿ ñòåïåíè
-string convertToBinary(int);// ôóíêöèÿ ïðåîáðàçîâàíèÿ ÷èñëà òèïà èíò â äâîè÷íîå ÷èñëî
-string convertToBinary(double);//ôóíêöèÿ ïðåîáðàçîâàíèÿ ÷èëà òèïà äàáë â äâîè÷íîå ÷èñëî
+bool getMode(); //choose the mode
+string getNumberFromUser(string);//get the number from user 
+string getSign10To2(string);// define the sign when we convert 10 -> 2
+double power(double, int);// calculate the power of number
+string convertToBinary(int);// convert the int number to binary
+string convertToBinary(double);//ôóíêöèÿ ïðåîáðàçîâàíèÿ ÷èëà òèïà äàáë â äâîè÷íîå ÷èñë
 string getExponent10To2(string);//ôóíêöèÿ âû÷èñëåíèÿ ïîðÿäêà ÷èñëà â ïðåîáðàçîâàíèè 10 -> 2
 string getFraction10to2(string);//ôóíêöèÿ âû÷èñëåíèÿ ìàíòèññû ÷èñëà â ïðåîáðàçîâàíèè 10 -> 2
 double convertToDecimal(string);//ôóíêöèÿ ïðåîáðàçîâàíèÿ äâîè÷íîãî ÷èñëà â äåñÿòè÷íîå ÷èñëî
